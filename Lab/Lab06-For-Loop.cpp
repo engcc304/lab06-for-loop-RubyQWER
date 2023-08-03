@@ -29,7 +29,7 @@ int main() {
         //end if 
     }
     else 
-    {   printf("Series: ") ;
+    {   printf("Series:") ;
         for (i = n ; i>=0 ; i-=2 ){
             printf(" %d" , i) ;
 
