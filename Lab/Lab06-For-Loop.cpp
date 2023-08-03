@@ -18,8 +18,23 @@
 #include <stdio.h>
 
 int main() {
+    int n,i = 0 ;
+    printf ( "Enter value: " ) ;
+    scanf  ( "%d" ,&n ) ;
+    if (n % 2 == 1) {
+        printf("Series:") ;
+        for   (i = 1 ; i<=n ; i+=2 ){
+            printf("%d " , i ) ;
+        }//end for
+        //end if 
+    }
+    else 
+    {   printf("Series: ") ;
+        for (i = n ; i>=0 ; i-=2 ){
+            printf("%d " , i ) ;
 
-    //--| YOUR CODE HERE
+    }//end else
+}
 
     return 0 ;
 }//end main function
